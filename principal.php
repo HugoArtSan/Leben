@@ -27,7 +27,7 @@ session_start();
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>::MEDISA - Principal ::</title>
+  <title>:: Principal ::</title>
 
   <link rel="stylesheet" href="bootstrap/css/bootstrap15.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> 

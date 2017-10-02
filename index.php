@@ -16,7 +16,7 @@ echo' <html>
 
         <head>
           <meta charset="utf-8">
-          <title>:: MEDISA - HUGO ::</title>
+          <title>:: Leben ::</title>
           <link rel="stylesheet" href="bootstrap/css/bootstrap15.css">
           <link rel="stylesheet" href="bootstrap/css/bootstrap-submenu.min.css">
 
