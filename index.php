@@ -69,7 +69,7 @@ echo' <html>
                             <tr>
                               <td colspan="6">
                                 <div class="col-md-4 col-xs-2"> <h4>Contraseña </h4></div>
-                                <div class="col-md-6 col-xs-4"> <input class="logueo form-control input-md"  type="text" name="passInicio" onkeydown="keyPress()"> </div>
+                                <div class="col-md-6 col-xs-4"> <input class="logueo form-control input-md"  type="password" name="passInicio" onkeydown="keyPress()"> </div>
                               </td>
                             </tr>
                         </tbody>

@@ -13,7 +13,7 @@ function interfazBar(){
     <button type="button" class="navbar-toggle" data-toggle="collapse"
             data-target=".navbar-ex1-collapse">
     </button>
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="principal.php">Logo</a>
   </div>
  
   <!-- Agrupar los enlaces de navegación, los formularios y cualquier

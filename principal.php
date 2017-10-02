@@ -2,16 +2,12 @@
 session_save_path("sessiones");
 session_start();
 
-
    include "database.lib.php";
    include "objetos.lib.php";
    include "libreria.lib.php";
    include "navbar.lib.php";
 
-
-
    $alerta=obten("session_usuario");
-
    $usuarioActivo=obten("login_usuario");
 
    if($alerta!="activa"){
@@ -24,7 +20,6 @@ session_start();
 
      echo interfazBar();
      pg_close($con);
-
 
 ?>
 
@@ -58,11 +53,12 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body> 
 
+<body> 
 
 <div id="div1" class="container col-md-12 panel panel-danger panel-responsive  ">
  <dt align="center" class="bg-success">:: Principal::</dt >
+  <!-- seccion de bitacola
 <div class="col-md-2 panel panel-success ">     
 
   <p>Nombre</p>
@@ -86,8 +82,6 @@ session_start();
   <span class="glyphicon glyphicon-search"></span> Buscar</button>
 </p>
 </div>
-
-  
 
 
   <div id="Tabulador" class="col-md-10 panel panel-info ">
@@ -123,7 +117,7 @@ session_start();
           <th id="tablaEstado" onclick="ordenarTabla(12);">Estado</th>
           <th id="tablaSupervisor" onclick="ordenarTabla(13);">Supervisor</th>
           <th id="tablaBitacola">Bitacola</th>
-         <!-- <th style="visibility:hidden;">Cuantos </th>-->
+         <th style="visibility:hidden;"> <-- OCULTAR Cuantos </th>
         </tr>
       </thead>
 
@@ -133,6 +127,7 @@ session_start();
     </table>
     </div>
   </div>
+
 </div>
 
 <div id="div2" class="container col-md-12 panel panel-warning panel-responsive ">
@@ -211,19 +206,21 @@ session_start();
 
 
 </div>
+-->
 
   <p align="center">
      <img src="imagenes/loguito_medisa.jpg">
   </p>
 
 </body>
+
 </html>
 
 
 <script language="javascript">
+
 var ren=0;
 var eli;
-
 
 $("#div2").hide();
 $("#cuantos").hide();
